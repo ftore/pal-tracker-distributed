@@ -18,7 +18,7 @@ import java.util.TimeZone;
 @EnableCircuitBreaker
 @EnableWebSecurity
 @EnableResourceServer
-@SpringBootApplication(exclude = RabbitAutoConfiguration.class)
+@SpringBootApplication
 @ComponentScan({"io.pivotal.pal.tracker.allocations", "io.pivotal.pal.tracker.restsupport"})
 public class App {
 
